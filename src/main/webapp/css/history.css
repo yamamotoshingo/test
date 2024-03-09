@@ -1,0 +1,130 @@
+* {
+	font-family: Meiryo;
+	font-size: 18px;
+}
+
+body {
+	background: #fff;
+}
+
+h1 {
+	height: 80px;
+	background: #eee;
+	font-size: 30px;
+	line-height: 80px;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-top: 0;
+}
+
+.purchase_button {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+td {
+	text-align: center;
+}
+
+.checkbox {
+	width: 50px;
+	text-align: center;
+}
+
+img.image {
+	max-width: 200px;
+	height: 100px;
+	object-fit: contain;
+}
+
+table.table_form {
+	background: #fff;
+	padding: 5px;
+	margin: 15px auto;
+	border: 1px solid #ccc;
+}
+
+table.table_list {
+	background: #fff;
+	width: 80%;
+	table-layout: fixed;
+	word-wrap: break-word;
+	border: 1px solid #ccc;
+}
+
+.table {
+	display: flex;
+	justify-content: center;
+}
+
+th,
+td {
+	border: 1px solid #ccc;
+}
+
+th {
+	background-color: #888888;
+}
+
+td.int {
+	text-align: right;
+}
+
+td.button {
+	text-align: center;
+}
+
+select.list {
+	width: 100px;
+}
+
+div.login_pane {
+	background: #fff;
+	width: 500px;
+	padding: 10px;
+	margin: 30px auto;
+	border: 1px solid #ccc;
+}
+
+input.common_button {
+	width: 150px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 0 10px;
+	margin: 15px auto;
+	border-radius: 30px;
+	background-color: #49a9d4;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background: rgb(228, 226, 223);
+	color: #000000;
+}
+
+.btn:hover {
+	transition: all .2s linear;
+	background: #555555;
+	color: #fff;
+}
+
+.header {
+	padding: 5px 0px;
+	font-weight: bold;
+	background-image: url(../image/nature.jpg);
+}
+
+.loginuser {
+	display: inline;
+	background: #fff;
+	margin-right: 5px;
+}

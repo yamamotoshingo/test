@@ -1,0 +1,89 @@
+* {
+	font-family: Meiryo;
+	font-size: 18px;
+}
+
+body {
+	background-image: url("../image/wall.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	margin: 0px;
+	border: 1px solid #ccc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+div.login_pane {
+	background-color: #fff;
+	width: 700px;
+	height: 500px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	animation: fadein 1s ease-out forwards;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+h1 {
+	font-size: 25px;
+	background: #eee;
+	height: 100px;
+	line-height: 100px;
+	border: 1px solid #ccc;
+	text-align: center;
+
+}
+
+p {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+table.table_form {
+	background: #fff;
+	padding: 5px;
+	margin: 15px auto;
+	border: 1px solid #ccc;
+}
+
+th,
+td {
+	border: 1px solid #ccc;
+}
+
+td.button {
+	text-align: center;
+}
+
+input.common_button {
+	width: 150px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 0 10px;
+	margin: 15px auto;
+	border-radius: 30px;
+	background-color: #49a9d4;
+}
+
+input.common_button:hover {
+	background-color: #0099FF;
+}

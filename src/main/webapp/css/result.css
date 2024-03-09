@@ -1,0 +1,78 @@
+* {
+	font-family: Meiryo;
+}
+
+body {
+	background: #fff;
+}
+
+h1 {
+	height: 80px;
+	background: #eee;
+	font-size: 30px;
+	line-height: 80px;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-top: 0;
+}
+
+.result {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.thankyou {
+	font-size: 40px;
+}
+
+img.image {
+	max-width: 400px;
+	height: 400px;
+	object-fit: contain;
+}
+
+form {
+	text-align: center;
+}
+
+input.common_button {
+	width: 150px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 0 10px;
+	margin: 15px auto;
+	border-radius: 30px;
+	background-color: #49a9d4;
+}
+
+input.common_button:hover {
+	background-color: #0099FF;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background: rgb(228, 226, 223);
+	color: #000000;
+}
+
+.btn:hover {
+	transition: all .2s linear;
+	background: #555555;
+	color: #fff;
+}
+
+.header {
+	padding: 5px 0px;
+	font-weight: bold;
+	background-image: url(../image/nature.jpg);
+}
+
+.loginuser {
+	display: inline;
+	background: #fff;
+	margin-right: 5px;
+}

@@ -1,0 +1,178 @@
+* {
+	font-family: Meiryo;
+	font-size: 18px;
+}
+
+body {
+	background: #fff;
+}
+
+h1 {
+	height: 80px;
+	background: #eee;
+	font-size: 30px;
+	line-height: 80px;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.purchase_button {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+td {
+	text-align: center;
+}
+
+.checkbox {
+	width: 50px;
+	text-align: center;
+}
+
+img.image {
+	max-width: 200px;
+	height: 100px;
+	object-fit: contain;
+}
+
+table.table_form {
+	background: #fff;
+	padding: 5px;
+	margin: 15px auto;
+	border: 1px solid #ccc;
+}
+
+table.table_list {
+	background: #fff;
+	width: 100%;
+	table-layout: fixed;
+	word-wrap: break-word;
+	border: 1px solid #ccc;
+}
+
+th,
+td {
+	border: 1px solid #ccc;
+}
+
+th {
+	background-color: #888888;
+}
+
+td.int {
+	text-align: right;
+}
+
+td.button {
+	text-align: center;
+}
+
+select.list {
+	width: 100px;
+}
+
+div.login_pane {
+	background: #fff;
+	width: 500px;
+	padding: 10px;
+	margin: 30px auto;
+	border: 1px solid #ccc;
+}
+
+input.common_button {
+	width: 150px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 0 10px;
+	margin: 15px auto;
+	border-radius: 30px;
+	background-color: #49a9d4;
+}
+
+input#button {
+	opacity: 0.5;
+}
+
+input#noitem {
+	opacity: 0.5;
+}
+
+input.delete_button {
+	width: 150px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 0 10px;
+	margin: 15px 0px;
+	border-radius: 30px;
+	background-color: #CC3333;
+}
+
+input.back_button {
+	width: 150px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 0 10px;
+	margin: 15px 0px;
+	border-radius: 30px;
+	background-color: #49a9d4;
+}
+
+form {
+	width: 80%;
+}
+
+div.form {
+	display: flex;
+	justify-content: center;
+}
+
+.hoverbutton:hover {
+	background-color: #0099FF;
+}
+
+input.back_button:hover {
+	background-color: #0099FF;
+}
+
+input.delete_button:hover {
+	background-color: #FF3333;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background: rgb(228, 226, 223);
+	color: #000000;
+}
+
+.btn:hover {
+	transition: all .2s linear;
+	background: #555555;
+	color: #fff;
+}
+
+.header {
+	padding: 5px 0px;
+	font-weight: bold;
+	background-image: url(./image/nature.jpg);
+	animation: scrol-ani 10s linear infinite;
+}
+
+@keyframes scrol-ani {
+	100% {
+		background-position: -100% 0;
+	}
+}
+
+.loginuser {
+	display: inline;
+	background: #fff;
+	margin-right: 5px;
+}
