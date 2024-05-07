@@ -15,6 +15,7 @@ public class test {
     i += 1;
     list.add(i);
     System.out.println(list);
+    System.out.println(list);
   }
   }
   
